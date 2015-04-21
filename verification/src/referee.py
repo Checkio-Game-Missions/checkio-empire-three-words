@@ -15,10 +15,6 @@ class Referee(RefereeBase):
     FUNCTION_NAMES = {
         "javascript": "threeWords"
     }
-    ENV_COVERCODE = {
-        "python_3": covercodes.py_unwrap_args,
-        "javascript": covercodes.py_unwrap_args,
-    }
     CALLED_REPRESENTATIONS = {
         "python_3": representations.unwrap_arg_representation,
         "javascript": representations.unwrap_arg_representation,
