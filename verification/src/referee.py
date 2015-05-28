@@ -15,7 +15,3 @@ class Referee(RefereeBase):
     FUNCTION_NAMES = {
         "javascript": "threeWords"
     }
-    CALLED_REPRESENTATIONS = {
-        "python_3": representations.unwrap_arg_representation,
-        "javascript": representations.unwrap_arg_representation,
-    }
