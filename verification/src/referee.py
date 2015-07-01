@@ -1,6 +1,6 @@
 from checkio_referee import RefereeBase
 
-from checkio_referee import covercodes, representations
+from checkio_referee import covercodes, representations, ENV_NAME
 
 
 import settings_env
@@ -13,5 +13,5 @@ class Referee(RefereeBase):
 
     DEFAULT_FUNCTION_NAME = "three_words"
     FUNCTION_NAMES = {
-        "javascript": "threeWords"
+        ENV_NAME.JS_NODE: "threeWords"
     }
