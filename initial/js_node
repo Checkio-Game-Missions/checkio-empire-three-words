@@ -13,4 +13,5 @@ if (!global.is_checking) {
     assert.equal(threeWords("1 2 3 4"), false, "Digits");
     assert.equal(threeWords("bla bla bla bla"), true, "Bla Bla");
     assert.equal(threeWords("Hi"), false, "Hi");
+    console.log("Now that you're finished, hit the 'Check' button to review your code and earn sweet rewards!");
 }
