@@ -4,10 +4,10 @@ def three_words(words):
 
 if __name__ == '__main__':
     # These "asserts" using only for self-checking and not necessary for auto-testing
-    assert three_words("Hello World hello"), "Hello"
-    assert not three_words("He is 123 man"), "123 man"
-    assert not three_words("1 2 3 4"), "Digits"
-    assert three_words("bla bla bla bla"), "Bla Bla"
-    assert not three_words("Hi"), "Hi"
+    assert three_words("Hello World hello"), True
+    assert not three_words("He is 123 man"), False
+    assert not three_words("1 2 3 4"), False
+    assert three_words("bla bla bla bla"), True
+    assert not three_words("Hi"), False
 
     print("Earn cool rewards by using the 'Check' button!")
